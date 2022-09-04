@@ -1,2 +1,4 @@
 venv
-mysite/mysite/top_secret.py
+top_secret.py
+mysite/db.sqlite3
+

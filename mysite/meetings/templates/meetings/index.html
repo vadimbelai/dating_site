@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>title</title>
+</head>
+<body>
+<div class="card mb-3">
+    <div class="card-header">
+        Ник: <a href="#">{{ people.person_shortname }}</a>
+    </div>
+    {% for attribute in all_attributes %}
+
+    <div class="card-body">
+    {% if attribute %}
+        {{ attribute }}
+    {% endif %}
+    </div>
+
+    {% endfor %}
+</div>
+</body>
+</html>
